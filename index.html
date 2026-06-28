@@ -3,25 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
+<title>MainCrafts Landing Page</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
+<header>
+<div class="logo">MainCrafts</div>
+
 <nav>
-    <h2>My Website</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Features</a></li>
+
+<li class="dropdown">
+<a href="#">Services <i class="fa-solid fa-caret-down"></i></a>
+
+<div class="dropdown-content">
+<a href="#">Web Development</a>
+<a href="#">App Development</a>
+<a href="#">UI/UX Design</a>
+</div>
+
+</li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
 </nav>
 
+</header>
+
 <section class="hero">
-    <h1>Welcome to My Website</h1>
-    <p>This project is created for Full Stack Web Development Internship Task 2.</p>
-    <a href="about.html"><button>Explore More</button></a>
+
+<div class="hero-text">
+
+<h1>Build Smarter with MainCrafts</h1>
+
+<p>Empowering businesses with modern web solutions that are fast, responsive and scalable.</p>
+
+<a href="#" class="btn">Get Started</a>
+
+</div>
+
 </section>
+
+<section class="features">
+
+<h2>Our Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fas fa-bolt"></i>
+<h3>Fast</h3>
+<p>Lightning fast performance for better user experience.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-mobile-alt"></i>
+<h3>Responsive</h3>
+<p>Looks great on mobile, tablet and desktop devices.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-cloud"></i>
+<h3>Scalable</h3>
+<p>Grow your business with scalable web solutions.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-lock"></i>
+<h3>Secure</h3>
+<p>Your data stays protected with modern security.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2025 MainCrafts | Privacy Policy | Terms | Contact</p>
+
+</footer>
 
 </body>
 </html>
